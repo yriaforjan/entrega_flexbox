@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Asesoría integral para empresas: laboral, fiscal, contable y jurídica.">
-    <meta name="keywords" content="asesoría, asesoría empresas, asesoría fiscal, contabilidad, asesoría contable, jurídico, asesoría jurídica">
+    <meta name="description" content="Asesoría para empresas y particulares: fiscal, laboral, contable y jurídica.">
+    <meta name="keywords" content="asesoría, asesoría empresas, asesoría particulares, asesoría fiscal, contabilidad, asesoría contable, jurídico, asesoría jurídica">
     <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <title>JVC Asesores S.L.</title>
@@ -14,13 +14,13 @@
         <a href="index.html"><img src="./assets/logo/logo_blanco-removebg.png" alt="JVC logo"></a>
         <nav>
             <ul>
-                <li><a class="barra_navegacion" href="#">Conócenos</a></li>
-                <li><a class="barra_navegacion" href="#">Servicios</a></li>
-                <li><a class="barra_navegacion" href="#">Contacto</a></li>
+                <li><a class="barra_navegacion" href="#about">Conócenos</a></li>
+                <li><a class="barra_navegacion" href="#servicios">Servicios</a></li>
+                <li><a class="barra_navegacion" href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-        <div id="burger_menu"> <!-- No hace nada -->
-            <img src="./assets/burger_menu.png" alt="menú">
+        <div> <!-- No hace nada -->
+            <img src="./assets/icons/burger_menu.png" alt="menu icon">
         </div>
     </header>
     <main>
@@ -29,15 +29,110 @@
             <h2>Desde 1991</h2>
             <ul>
                 <div>
-                    <li>Fiscal</li>
-                    <li>Laboral</li>
+                    <li><a href="#tarjetas">Fiscal</a></li>
+                    <li><a href="#tarjetas">Laboral</a></li>
                 </div>
                 <div>
-                    <li>Contabilidad</li>
-                    <li>Jurídico</li>
+                    <li><a href="#tarjetas">Contabilidad</a></li>
+                    <li><a href="#tarjetas">Jurídico</a></li>
                 </div>
             </ul>
         </section>
+        <section id="servicios">
+            <h3>¿Qué hacemos?</h3>
+            <p>JVC Asesores SL pone el foco en el asesoramiento de toda clase de cuestiones para diversos tipos de sectores, tanto a nivel empresarial como de particulares.</p>
+            <p>Nuestro principal objetivo es prestar servicios de la <span>máxima calidad</span>, apoyándonos en los mejores medios técnicos y la auto exigencia de la formación continua de todo nuestro equipo.</p>            
+            <div>
+                <div class="tarjeta">
+                    <img src="./assets/icons/fiscal.png" alt="icono agencia tributaria">
+                    <div>
+                        <h4>Asesoría fiscal</h4>
+                        <p>Nos encargamos de gestionar el cumplimiento de las obligaciones fiscales ante la administración tributaria, tanto para particulares como para empresas.</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="./assets/icons/contabilidad.png" alt="icono bolsa de dinero">
+                    <div>
+                        <h4>Contabilidad</h4>
+                        <p>Gestionamos de manera integral la economía de tu empresa y la optimizamos mediante un control y análisis de su situación económica (balances, cuentas de resultados).</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="./assets/icons/laboral.png" alt="icono maletín">
+                    <div>
+                        <h4>Asesoría Laboral</h4>
+                        <p>Nos aseguramos de que las empresas operen dentro del marco legal y optimizamos las prácticas de recursos humanos (contratos, nóminas, Seguridad Social).</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="./assets/icons/juridico.png" alt="icono mallete">
+                    <div>
+                        <h4>Asesoría jurídica</h4>
+                        <p>Trabajamos para evitar litigios o, si no es posible, proteger los intereses de tu empresa en cualquier procedimiento administrativo o en una causa judicial.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div id="about_titulo">
+                <h3>Nuestro equipo</h3>
+            </div>
+            <div id="about_equipo">
+                <div id="empleado1">
+                    <h4>Vicente Manuel Sánchez</h4>
+                    <ul>
+                        <li>Director general</li>
+                        <li>Asesor laboral</li>
+                    </ul>
+                </div>
+                <div id="empleado2">
+                    <h4>María Teresa Bóveda</h4>
+                    <p>Asesora fiscal, contable y jurídica</p>
+                </div>
+                <div id="empleado3">
+                    <h4>Teresa Sánchez</h4>
+                    <p>Asesora júnior: fiscal, laboral</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h3>Contacta con nosotros</h3>
+            <div>
+                <div class="contactar">
+                    <h4>Información de contacto</h4>
+                    <ul id="info_contacto">
+                        <li><img src="./assets/icons/location.png" alt="ubicación icono"><a href="https://maps.app.goo.gl/tvimTt2FwY2jUYLcA" target="_blank">Praza de Uxío Novoneyra 3, Ent - 15960 Ribeira (A Coruña)</a></li>
+                        <li><img src="./assets/icons/tlf.png" alt="teléfono icono">981 874174</li>
+                        <li><img src="./assets/icons/tlf.png" alt="teléfono icono">981 874241</li>
+                        <li><img src="./assets/icons/mail.png" alt="correo electrónico icono"><a href="mailto:correo@jvcasesores.com" target="_blank">correo@jvcasesores.com</a></li>
+                    </ul>
+                </div>
+                <div class="contactar">
+                    <h4>Déjanos un mensaje</h4>
+                    <form name="mensaje_contacto" action="#null" method="post">
+                        <fieldset>
+                            <legend>Información de contacto</legend>
+                            <div>
+                                <input class="caja" type="text" id="nombre" placeholder="Nombre y Apellidos" required>
+                                <input class="caja" type="email" name="email" placeholder="Correo Electrónico" required>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Mensaje</legend>
+                            <textarea name="mensaje" rows="4" cols="50" placeholder="Escriba aquí su mensaje..." required></textarea>
+                        </fieldset>     
+                        <input id="button" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <img src="./assets/logo/logo_negro-removebg.png" alt="JVC Asesores logo">
+        <div>
+            <p>Copyright &copy; JVC Asesores SL 2024 | Todos los Derechos Reservados</p>
+            <a href="linkedin.com/in/vicente-manuel-sánchez-pérez-64314b61" target="_blank"><img src="./assets/linkedin.png" alt="LinkedIn logo"></a>
+        </div>
+    </footer>
 </body>
 </html>
